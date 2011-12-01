@@ -1,7 +1,7 @@
 #!/bin/env python
 
-MAX_NUM=1000
-MIN_NUM=1
+MAX_NUM = 1000
+MIN_NUM = 1
 
 def main():
     answer = 0
