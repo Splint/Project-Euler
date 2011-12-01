@@ -1,7 +1,7 @@
 #!/bin/env python
 
-MAX_NUM=35
-MIN_NUM=1
+MAX_NUM = 35
+MIN_NUM = 1
 
 def fib(n):
     if n == 0:
@@ -9,7 +9,7 @@ def fib(n):
     elif n == 1:
         return 1
     else:
-        return fib(n-1) + fib(n-2)
+        return fib(n - 1) + fib(n - 2)
 
 def main():
     temp_fib = 0;
@@ -27,7 +27,7 @@ def main():
     for num in range(MIN_NUM, MAX_NUM):
         temp_fib = fib(num)
         if temp_fib < 4000000:
-            if temp_fib%2 == 0:
+            if temp_fib % 2 == 0:
                 answer += temp_fib
 
     print "Final Answer: ", answer
