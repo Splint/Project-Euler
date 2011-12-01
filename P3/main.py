@@ -1,6 +1,6 @@
 #!/bin/env python
 
-TARGET_NUM=600851475143
+TARGET_NUM = 600851475143
 
 def isPrime(n):
     '''Determine if the number `n` is prime'''
