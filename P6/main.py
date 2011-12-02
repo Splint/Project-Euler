@@ -16,7 +16,7 @@ def main():
     print "Find the difference between the sum of the squares of the first one"
     print "hundred natural numbers and the square of the sum.\n"
 
-    for num in range(1, (TARGET_NUM+1)):
+    for num in range(1, (TARGET_NUM + 1)):
         sum_of_squares += num * num
         square_of_sums += num
     
