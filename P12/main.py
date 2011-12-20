@@ -17,6 +17,7 @@ def get_answer():
         if factors(tri) > 500:
             return tri
             False
+
 def main():
     print "Project Euler Problem #12"
     print "Final Answer: ", get_answer()
