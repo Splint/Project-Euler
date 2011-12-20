@@ -12,10 +12,8 @@ def isPrime(n):
 def main():
     sum_primes = 0
     prime_list = []
+
     print "Project Euler Problem #10"
-    print "The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17"
-    print "Find the sum of all the primes below two million.\n"
-    
     for num in range(MIN_NUM, MAX_NUM):
         if isPrime(num) == True:
             prime_list.append(num)
