@@ -13,7 +13,7 @@ def calculate():
     return answer
 
 def main():
-    print "Project Euler Problem 13"
+    print "Project Euler Problem #13"
     print "Final Answer: ", str(calculate())[0:10]
 
 
