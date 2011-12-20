@@ -13,10 +13,8 @@ def isPrime(n):
 def main():
     target_prime = 0
     count = 0
+
     print "Project Euler Problem #7"
-    print "By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see"
-    print "that the 6th prime is 13.\n"
-    print "What is the 10 001st prime number?\n"
     for num in range(MIN_NUM, MAX_NUM):
         if isPrime(num) == True:
             count += 1
